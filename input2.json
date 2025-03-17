@@ -1,0 +1,16 @@
+{
+    "query": "find me a software engineering position in Namibia",
+    "resume": "I am a software engineer with experience in AI, Python, and web development. Proficient in Python, JavaScript, and cloud technologies. Familiar with LangChain, CrewAI, and Apify for building autonomous agents. Previously worked on AI-driven job search solutions and participated in AI hackathons.",
+    "preferences": {
+        "location": "Namibia",
+        "job_types": ["full-time", "contract"],
+        "remote_preference": "remote",
+        "industries": ["technology", "software development", "AI"],
+        "experience_level": "mid-level",
+        "salary_range": {
+            "min": 15000,
+            "max": 30000
+        }
+    },
+    "modelName": "gpt-4o-mini"
+}
