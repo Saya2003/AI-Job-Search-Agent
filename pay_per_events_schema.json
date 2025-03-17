@@ -1,0 +1,32 @@
+{
+    "actor-start-gb": {
+        "eventTitle": "Actor start per 1 GB",
+        "eventDescription": "Flat fee for starting an Actor run for each 1 GB of memory.",
+        "eventPriceUsd": 0.005
+    },
+    "openai-100-tokens-gpt-4o": {
+        "eventTitle": "Price per 100 OpenAI tokens for GPT-4o",
+        "eventDescription": "Flat fee for each 100 GPT-4o tokens used.",
+        "eventPriceUsd": 0.001
+    },
+    "openai-100-tokens-gpt-4o-mini": {
+        "eventTitle": "Price per 100 OpenAI tokens for GPT-4o-mini",
+        "eventDescription": "Flat fee for each 100 GPT-4o-mini tokens used.",
+        "eventPriceUsd": 0.00006
+    },
+    "job-api-request": {
+        "eventTitle": "Price per job API request",
+        "eventDescription": "Flat fee per request to external job listing APIs (LinkedIn, Indeed, etc.).",
+        "eventPriceUsd": 0.002
+    },
+    "web-scraper-request": {
+        "eventTitle": "Price per web scraping request",
+        "eventDescription": "Flat fee per request to scrape job listings using Apify’s Google Search Scraper or Website Content Crawler.",
+        "eventPriceUsd": 0.003
+    },
+    "jobs-processed": {
+        "eventTitle": "Price per job processed",
+        "eventDescription": "Flat fee for each job posting analyzed and stored in the system.",
+        "eventPriceUsd": 0.0005
+    }
+}
