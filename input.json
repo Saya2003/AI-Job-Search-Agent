@@ -1,0 +1,22 @@
+{
+    "query": "Find job opportunities based on my resume.",
+    "resume": "I am a Computer Science student specializing in Software Development with experience in AI, web development, and microservices. Skills include Python, JavaScript, Ballerina, MongoDB, Kafka, Docker, and Apify. Participated in multiple hackathons and developed AI-powered solutions for job search automation.",
+    "preferences": {
+        "location": "remote or Namibia",
+        "job_types": ["internship", "part-time", "full-time"],
+        "remote_preference": "remote",
+        "industries": ["technology", "software development", "AI", "data science"],
+        "experience_level": "entry-level",
+        "salary_range": {
+            "min": 5000,
+            "max": 20000
+        }
+    },
+    "modelName": "gpt-4o-mini",
+    "tools": {
+        "search_engine": "Apify Google Search Scraper",
+        "web_scraper": "Apify Website Content Crawler",
+        "job_aggregator": "LinkedIn, Indeed, and other sources",
+        "LLM_framework": "LangGraph with OpenAI API"
+    }
+}
