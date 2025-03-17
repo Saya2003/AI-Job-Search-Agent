@@ -1,0 +1,66 @@
+{
+  "title": "Job Search Preferences",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "resume": {
+      "title": "Resume",
+      "type": "string",
+      "editor": "textarea",
+      "description": "Paste your resume text here to match job listings."
+    },
+    "location": {
+      "title": "Preferred Job Location",
+      "type": "string",
+      "editor": "textfield",
+      "description": "Enter the city, state, or 'Remote' for job preferences.",
+      "default": "Remote"
+    },
+    "jobType": {
+      "title": "Job Type",
+      "type": "array",
+      "editor": "select",
+      "description": "Select the type of employment you prefer.",
+      "enum": ["full-time", "part-time", "contract", "internship", "remote"],
+      "uniqueItems": true,
+      "default": ["full-time"]
+    },
+    "keywords": {
+      "title": "Search Keywords",
+      "type": "string",
+      "editor": "textfield",
+      "description": "Enter job-related keywords (e.g., Python, AI, Data Science)."
+    },
+    "aiModel": {
+      "title": "AI Model for Analysis",
+      "type": "string",
+      "editor": "select",
+      "description": "Choose the AI model for job recommendations.",
+      "enum": ["gpt-4o-mini", "gpt-4-turbo", "gpt-3.5-turbo"],
+      "default": "gpt-4o-mini"
+    },
+    "experienceLevel": {
+      "title": "Experience Level",
+      "type": "string",
+      "editor": "select",
+      "description": "Select the level of experience required for jobs.",
+      "enum": ["entry-level", "mid-level", "senior-level"],
+      "default": "mid-level"
+    },
+    "industry": {
+      "title": "Preferred Industry",
+      "type": "string",
+      "editor": "textfield",
+      "description": "Specify the industries you want to work in (e.g., tech, finance, healthcare)."
+    },
+    "preferredCompanySize": {
+      "title": "Preferred Company Size",
+      "type": "string",
+      "editor": "select",
+      "description": "Choose your preferred company size.",
+      "enum": ["small", "medium", "large"],
+      "default": "medium"
+    }
+  },
+  "required": ["resume"]
+}
